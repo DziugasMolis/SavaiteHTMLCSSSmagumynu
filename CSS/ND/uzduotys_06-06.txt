@@ -1,0 +1,11 @@
+ONLY USE SEPERATE CSS FILES!!!!!!!
+1. Create a page like in piliakalnis.jpg and use font Open sans
+2. Create a page with 4 divs in body where each div takes 100% view port, 
+make each div background color different to see the difference, each div 
+needs to have a heading, a paragraph and image
+Use font Roboto
+
+
+Additional task: after finishing ex. 2 copy ex 2 file and 
+make each div take up only 50% view port and then on hover increase 
+div to 100% and its elements sizes accordingly view port and add transition

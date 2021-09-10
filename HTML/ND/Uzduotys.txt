@@ -1,0 +1,4 @@
+1. Atvaizduoti h1-h6 antrastes
+2. Sukurti nuorodas i 5 skirtingus puslapius 
+4. Make a webpage which contains inputs of all types (put each input in seperate div)
+5. Atkartoti ND/savaitei.pdf

@@ -1,0 +1,42 @@
+<!-- https://www.freecodecamp.org/news/semantic-html5-elements/ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML PAGE</title>
+    <style>
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #666;">
+        <h2>Musu headeris</h2>
+    </header>
+
+    <section>
+        <nav style="float: left; width: 30%;">
+            <ul>
+                <li><a href="#">Nav 1</a></li>
+                <li><a href="#">Nav 2</a></li>
+                <li><a href="#">Nav 3</a></li>
+            </ul>
+        </nav>
+        <article style="float: right; width: 70%;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam voluptatum tempora possimus porro distinctio
+            dolor placeat vero perspiciatis, alias rerum ut, velit ab saepe molestiae reprehenderit fugiat harum?
+            Consequatur, totam.
+        </article>
+    </section>
+
+    <footer>
+        <p>Apacia</p>
+    </footer>
+</body>
+
+</html>

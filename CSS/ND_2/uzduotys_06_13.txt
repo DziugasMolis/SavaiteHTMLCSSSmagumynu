@@ -1,0 +1,12 @@
+1. Finish copying button styles in 34_Buttons/buttons.html and seperate each button type css to different files
+2. http://www.flexboxdefense.com/ finish
+3. Import bootstrap to your project and put some components in it (https://getbootstrap.com/docs/4.3/components/):
+
+    1 alert component
+    1 badge element with header
+    1 radio button group
+    1 Card 
+    1 Form
+    1 Nav
+
+4. Finish HTML+CSS/Technical Documentation
