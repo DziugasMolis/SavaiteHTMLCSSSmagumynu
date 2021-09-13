@@ -13,14 +13,24 @@
 <body>
 
     <p id="demo">Hi.</p>
-    <button onclick="Generate()">Mygtukas</button>
+    <button onclick="generate('Hello world!')">Mygtukas</button>
 
 </body>
 <script>
-    function Generate() {
+    generate('iskarto iskvieciau');
+
+    function generate(tekstas) {
         let pElement = document.getElementById("demo");
+        if(!pElement) {
+            console.log('elementas nerastas');
+        } else {
+            console.log('elementas rastas', pElement);
+            pElement.innerText = tekstas;
+        }
+        
+
     }
-    
+
 </script>
 
 </html>

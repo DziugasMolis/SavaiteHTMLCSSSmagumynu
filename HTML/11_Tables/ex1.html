@@ -3,32 +3,38 @@
 The two table headers should have the value "Name" and "Age".
 
  -->
- <!DOCTYPE html>
- <html>
- 
- <head>
-   <style>
-     th, td {
-       width: 200px;
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    th,
+    td {
+      width: 200px;
       border: 1px solid black;
       text-align: center;
-     }
-   </style>
- </head>
- 
- <body>
- 
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
   <table>
-    <tr>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
 
-    </tr>
-    <tr>
-      <td>Jill Smith</td>
-      <td>50</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>Jill Smith</td>
+        <td>50</td>
+      </tr>
+    </tbody>
   </table>
- </body>
- 
- </html>
+</body>
 
- 
+</html>
