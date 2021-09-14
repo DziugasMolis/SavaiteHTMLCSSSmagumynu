@@ -1,14 +1,26 @@
-<!-- Change the color of all <p> and <h1> elements, to "red". Group the selectors to minimize code.
+<!-- Change the color of all <p> and <h1> elements,
+     to "red". Group the selectors to minimize code.
 
  -->
  <!DOCTYPE html>
  <html>
  <head>
  <style>
- 
+     p, h1, .class1 p {
+         color: red;
+     }
+     .class1, .class2 {
+         color: green;
+     }
  </style>
  </head>
  <body>
+     <div class="class1">
+         <span>
+             <p></p>
+         </span>
+        
+     </div>
  
  <h1>This is a heading</h1>
  <h2>This is a smaller heading</h2>
