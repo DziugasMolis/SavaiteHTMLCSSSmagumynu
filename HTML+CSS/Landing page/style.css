@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #926239;
+    font-size:17px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-a {
+    background: url('assets/beachshowcase.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.section-a h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.section-a p {
+    font-size: 20px;
+}
+
+.section-a button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.section-a button:hover {
+    color: #ffffff;
+    background-color: #926239;
+}
+
+.section-b {
+    background-color: #926239;
+    color: #ffffff;
+}
+
+.section-c {
+    background-color: #f4f4f4;
+}
+
+.section-b, .section-c {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-d {
+    display: flex;
+    flex-direction: row;
+}
+.section-d p {
+    padding: 20px;
+}
+
+.section-d p:nth-child(odd) {
+    background-color: #926239;
+    color: #ffffff;
+}
+
+.section-d p:nth-child(even) {
+    color: #926239;
+    background-color: #f9f9f9;
+}
