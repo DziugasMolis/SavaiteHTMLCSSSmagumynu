@@ -1,0 +1,40 @@
+.custom-input {
+    position: relative;
+}
+
+input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    transition: padding 0.4s;
+}
+
+input[type=email]:placeholder-shown + label {
+    color: #aaa;
+    font-size: 14px;
+    left: 5px;
+    top: 5px;
+}
+
+label,
+input[type=email]:focus + label {
+    color: #4476bd;
+    font-size: 12px;
+    left: 2px;
+    top: 2px;
+    pointer-events: none;
+    position: absolute;
+    transition: top 0.4s, left 0.4s, font-size 0.4s;
+}
+
+input[type=email]::placeholder {
+    color: transparent;
+}
+
+input[type=email]:focus,
+input[type=email]:not(:placeholder-shown) {
+    border-bottom: 1px solid #4476bd;
+    outline: none;
+    padding: 20px 5px 5px;
+}
